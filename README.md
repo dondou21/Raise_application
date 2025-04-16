@@ -124,7 +124,7 @@ FROM (
 ) ranked_sales
 WHERE rnk <= 3;
 ```
-![Alt text](https://github.com/user-attachments/assets/610e8e55-5c03-4208-86f4-f2b6ca06a43a)
+![Alt text](https://github.com/user-attachments/assets/26ea1f7b-1a0d-4e24-937a-ab165101340a)
 
 #### 🔍 Explanation:
 - We use a subquery to rank products by amount within each **category**.
@@ -147,6 +147,7 @@ FROM (
 ) ordered_sales
 WHERE row_num <= 2;
 ```
+![Alt text](https://github.com/user-attachments/assets/610e8e55-5c03-4208-86f4-f2b6ca06a43a)
 
 #### 🔍 Explanation:
 - We use `ROW_NUMBER()` to assign a **unique order** to each sale by date within a category.
@@ -166,6 +167,7 @@ SELECT
     MAX(amount) OVER () AS overall_max
 FROM sales;
 ```
+![Alt text](https://github.com/user-attachments/assets/b5da7d08-665b-4424-a5db-10d81bc69731)
 
 #### 🔍 Explanation:
 - `MAX() OVER (PARTITION BY category)`: Gets the **highest amount** within each category.
