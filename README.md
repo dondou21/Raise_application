@@ -51,6 +51,7 @@ INSERT INTO sales VALUES (10, 'Tablet', 'Electronics', 'West', 300, '2024-01-10'
 INSERT INTO sales VALUES (11, 'Monitor', 'Electronics', 'West', 150, '2024-01-11');
 INSERT INTO sales VALUES (12, 'Speaker', 'Electronics', 'West', 80, '2024-01-12');
 ```
+![table_creation](https://github.com/user-attachments/assets/bbba4e77-82ca-4d04-9fce-6958cd0b4718)
 
 ---
 
