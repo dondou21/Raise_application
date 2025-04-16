@@ -78,6 +78,7 @@ SELECT
     END AS comparison_with_previous
 FROM sales;
 ```
+![1_comparaison](https://github.com/user-attachments/assets/1de29455-50de-45fa-bd58-4e992548cfd7)
 
 #### 🔍 Explanation:
 - **LAG()** and **LEAD()** are used to access the **previous** and **next** amount within the same region.
@@ -98,6 +99,7 @@ SELECT
     DENSE_RANK() OVER (PARTITION BY category ORDER BY amount DESC) AS dense_rank_amount
 FROM sales;
 ```
+![2_ranking](https://github.com/user-attachments/assets/03764d58-b013-402e-8f11-fe4ed9c03394)
 
 #### 🔍 Explanation:
 - We rank products within each **category** based on **amount (sales)** in descending order.
