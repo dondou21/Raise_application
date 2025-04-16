@@ -7,6 +7,7 @@ Repo by **Team Name: `Raise_application`** 😄
 
 # Group member:
 **25188 Dondou Abiyi**
+**25459 Mugisha Eric**
 
 ## 📋 Dataset
 
@@ -122,6 +123,7 @@ FROM (
 ) ranked_sales
 WHERE rnk <= 3;
 ```
+![Alt text](https://github.com/user-attachments/assets/610e8e55-5c03-4208-86f4-f2b6ca06a43a)
 
 #### 🔍 Explanation:
 - We use a subquery to rank products by amount within each **category**.
